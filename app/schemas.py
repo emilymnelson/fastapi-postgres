@@ -6,6 +6,9 @@ class CMESchema(BaseModel):
     year: str
     specialty: str
     hospital: str
+    isEmpty: str
+    status: str
+    expiration: str
 
     class Config:
         orm_mode = True

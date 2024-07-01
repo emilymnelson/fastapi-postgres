@@ -11,3 +11,8 @@ class CME(Base):
     year = Column(String)
     specialty = Column(String)
     hospital = Column(String)
+    isEmpty = Column(String)
+    status = Column(String)
+    expiration = Column(String)
+
+
